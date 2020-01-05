@@ -18,11 +18,11 @@ public class toss
             c = (int)d;
             if(c == 1)
             {
-                h = h + 1;
+                h+=1;
             }
             else
             {
-                t = t+1;
+                t+=1;
             }
        
      System.out.println("No. of times Heads obtained = "+h);
